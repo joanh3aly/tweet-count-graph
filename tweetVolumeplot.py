@@ -70,8 +70,9 @@ def read_data():
       
     # Create new NP array with hour and number of tweets
     hourlyTweetNo = np.array([[hourRecorded1, tweetCount1],[hourRecorded2, tweetCount2],[hourRecorded3, tweetCount3],[hourRecorded4, tweetCount4],[hourRecorded5, tweetCount5],[hourRecorded6, tweetCount6],[hourRecorded7, tweetCount7],[hourRecorded8, tweetCount8],[hourRecorded9, tweetCount9],[hourRecorded10, tweetCount10],[hourRecorded11, tweetCount11],[hourRecorded12, tweetCount12],[hourRecorded13, tweetCount13],[hourRecorded14, tweetCount14],[hourRecorded15, tweetCount15],[hourRecorded16, tweetCount16],[hourRecorded17, tweetCount17],[hourRecorded18, tweetCount18],[hourRecorded19, tweetCount19],[hourRecorded20, tweetCount20],[hourRecorded21, tweetCount21],[hourRecorded22, tweetCount22],[hourRecorded23, tweetCount23],[hourRecorded24, tweetCount24]])
-  
-    hourlyTweetNo = np.array([[hourRecorded18, tweetCount18],[hourRecorded19, tweetCount19]])
+     
+     # Test data to plot   
+#    hourlyTweetNo = np.array([[hourRecorded18, tweetCount18],[hourRecorded19, tweetCount19]])
     
     return hourlyTweetNo
     
